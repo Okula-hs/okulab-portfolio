@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/okulab-portfolio/static/css/main.9bf02c5a.chunk.css",
+    "main.js": "/okulab-portfolio/static/js/main.0f9d9b25.chunk.js",
+    "main.js.map": "/okulab-portfolio/static/js/main.0f9d9b25.chunk.js.map",
+    "runtime-main.js": "/okulab-portfolio/static/js/runtime-main.2f8a90a3.js",
+    "runtime-main.js.map": "/okulab-portfolio/static/js/runtime-main.2f8a90a3.js.map",
+    "static/js/2.c4da3656.chunk.js": "/okulab-portfolio/static/js/2.c4da3656.chunk.js",
+    "static/js/2.c4da3656.chunk.js.map": "/okulab-portfolio/static/js/2.c4da3656.chunk.js.map",
+    "static/js/3.90927c23.chunk.js": "/okulab-portfolio/static/js/3.90927c23.chunk.js",
+    "static/js/3.90927c23.chunk.js.map": "/okulab-portfolio/static/js/3.90927c23.chunk.js.map",
+    "index.html": "/okulab-portfolio/index.html",
+    "static/css/main.9bf02c5a.chunk.css.map": "/okulab-portfolio/static/css/main.9bf02c5a.chunk.css.map",
+    "static/js/2.c4da3656.chunk.js.LICENSE.txt": "/okulab-portfolio/static/js/2.c4da3656.chunk.js.LICENSE.txt",
+    "static/media/Logo_mini.989bdf77.svg": "/okulab-portfolio/static/media/Logo_mini.989bdf77.svg",
+    "static/media/logo.16239207.svg": "/okulab-portfolio/static/media/logo.16239207.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f8a90a3.js",
+    "static/js/2.c4da3656.chunk.js",
+    "static/css/main.9bf02c5a.chunk.css",
+    "static/js/main.0f9d9b25.chunk.js"
+  ]
+}
