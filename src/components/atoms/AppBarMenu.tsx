@@ -23,16 +23,30 @@ const useStyles = makeStyles({
     paddingLeft: 8,
     paddingRight: 8,
   },
+  cardMobile: {
+    background: "#F3F1F1",
+    borderRadius: 0,
+    border: 0,
+    padding: 0,
+    //    minHeight: 64,
+    justifyContent: "center",
+  },
 });
 
 type Props = {
   string: React.ReactNode;
+  id: string;
 };
-const AppBarMenu = (props: Props) => {
+export const AppBarMenu = (props: Props) => {
   const classes = useStyles();
   return (
     <StyledAppBarMenu variant="outlined">
-      <CardActionArea style={{ width: "100%", height: "100%" }}>
+      <CardActionArea
+        style={{ width: "100%", height: "100%" }}
+        onClick={() => {
+          window.location.href = props.id;
+        }}
+      >
         <Box className={classes.title}>
           <Typography variant="h6">{props.string}</Typography>
         </Box>
@@ -40,5 +54,25 @@ const AppBarMenu = (props: Props) => {
     </StyledAppBarMenu>
   );
 };
+export const AppBarMenuMobile = (props: Props) => {
+  const classes = useStyles();
+  return (
+    <Card variant="outlined" className={classes.cardMobile}>
+      <CardActionArea style={{ width: "100%", height: "100%" }}>
+        <Box className={classes.title}>
+          <Typography variant="h6">{props.string}</Typography>
+        </Box>
+      </CardActionArea>
+    </Card>
+  );
+};
 
-export default AppBarMenu;
+const Test = () => {
+  <button
+    onClick={() => {
+      window.location.href = "#id";
+    }}
+  >
+    ジャンプする！
+  </button>;
+};
