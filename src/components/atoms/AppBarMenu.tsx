@@ -28,7 +28,6 @@ const useStyles = makeStyles({
     borderRadius: 0,
     border: 0,
     padding: 0,
-    //    minHeight: 64,
     justifyContent: "center",
   },
 });
@@ -65,14 +64,4 @@ export const AppBarMenuMobile = (props: Props) => {
       </CardActionArea>
     </Card>
   );
-};
-
-const Test = () => {
-  <button
-    onClick={() => {
-      window.location.href = "#id";
-    }}
-  >
-    ジャンプする！
-  </button>;
 };

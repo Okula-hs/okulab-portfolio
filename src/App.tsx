@@ -56,6 +56,8 @@ function App() {
         >
           <SkillSetComponent />
         </Grid>
+
+        {/* Contact Me */}
         <Grid
           container
           alignItems="center"

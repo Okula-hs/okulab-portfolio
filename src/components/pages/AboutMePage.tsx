@@ -15,9 +15,7 @@ const useStyles = makeStyles((theme: Theme) =>
       padding: "40px 32px 0 32px",
     },
     paper: {
-      //   height: 140,
       width: "80%",
-      //   backgroundColor: "pink",
     },
     items: {
       paddingBottom: 40,
@@ -40,14 +38,6 @@ const GridItem = (props: GirdItemProps) => {
         <Typography color="textSecondary">{props.subtitle}</Typography>
         {props.icon}
         {props.texts}
-        {/* {props.text.split("\n").map((str, index) => {
-          return (
-            <Typography variant={"body2"}>
-              {str}
-              <br />
-            </Typography>
-          );
-        })} */}
       </Paper>
     </Grid>
   );
@@ -93,7 +83,10 @@ const Texts = [
           ・Qiita:
           <a href="https://qiita.com/okula-hs">https://qiita.com/okula-hs</a>
         </Typography>
-        <Typography variant={"body2"}>・GitHub：作成中</Typography>
+        <Typography variant={"body2"}>
+          ・GitHub：
+          <a href="https://github.com/Okula-hs">https://github.com/Okula-hs</a>
+        </Typography>
         <Typography variant={"body2"}>・Twitter：作成中</Typography>
       </>
     ),
